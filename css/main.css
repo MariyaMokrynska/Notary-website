@@ -1,0 +1,420 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+body {
+	min-width: 800px;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+button {
+	font-weight: 700;
+	color: #fff;
+	background-color: #7FB5F3;
+	padding: 8px;
+	border-radius: 3px;
+	border: 1px silver solid;
+	cursor: pointer;
+}
+
+#top-block {
+	background-color: #353841;
+	width: 100%;
+	height: 50px;
+	text-align: right;
+}
+
+#social-media-icons {
+	padding-right: 50px;
+}
+
+.icons {
+	width: 48px;
+}
+
+#navigation-block {
+	height: 150px;
+	font-size: 20px;
+}
+
+#logo {
+	width: 20%;
+	height: 150px;
+	margin-left: 5px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}
+
+#logo img {
+	width: 250px;
+}
+
+#navigation-buttons {
+	width: 59%;
+	height: 150px;
+	display: inline-block;
+	float: left;
+}
+
+#navigation-buttons ul li {
+	list-style: none;
+	height: 100%;
+	display: inline-block;
+	line-height: 150px;
+	width: 150px;
+	margin-left: -5px;
+	text-align: center;
+	color: #000;
+}
+
+@media screen and (max-width:1600px) {
+	#navigation-buttons ul li {
+		width: 100px;
+	}
+	#navigation-block {
+		height: 150px;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.question {
+		display: inline-block;
+		width: 20%;
+	}
+	.question h2 {
+		font-size: 15px;
+	}
+	#questions {
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width:1060px) {
+	#navigation-buttons ul li {
+		width: 80px;
+	}
+	#navigation-block {
+		height: 150px;
+		font-size: 12px;
+	}
+	#logo img {
+		width: 220px;
+	}
+}
+
+@media screen and (max-width:900px) {
+	#navigation-block {
+		height: 120px;
+	}
+	#logo {
+		width: 20%;
+		height: 120px;
+		margin-left: 5px;
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+		float: left;
+	}
+	#logo img {
+		width: 180px;
+	}
+	#navigation-buttons {
+		width: 59%;
+		height: 120px;
+		display: inline-block;
+		float: left;
+	}
+	#navigation-buttons ul li {
+		line-height: 120px;
+	}
+}
+
+@media screen and (max-width:1374px) {
+	#portrait {
+		margin-left: 140px;
+	}
+}
+
+@media screen and (max-width:1300px) {
+	#faq-image-block img {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width:800px) {
+	#notarization-block {
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 50px;
+	}
+	.contacts-block {
+		width: 30%;
+		margin-right: 15px;
+	}
+}
+#navigation-buttons ul a {
+    text-decoration: none;
+}
+
+#navigation-buttons ul a li {
+	text-decoration: none;
+	color: #000;
+}
+
+#navigation-buttons ul li:hover {
+	background: #7FB5F3;
+	color: #fff;
+}
+
+#navigation-buttons ul {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	padding: 0px;
+}
+
+#contact-info {
+	width: 20%;
+	height: 150px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+#contact-info p {
+	line-height: 45px;
+}
+
+#phone-number,
+#andrii-email {
+	text-decoration: none;
+	color: #000;
+}
+
+#content {
+	height: 500px;
+}
+
+#welcome {
+	background-image: url("../images/background.png");
+	background-size: cover;
+	background-attachment: scroll;
+	height: 800px;
+}
+
+#description {
+	background: rgba(53, 56, 65, 0.4);
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+#divider {
+	height: 900px;
+	background-image: url("../images/divider.jpg");
+	background-size: cover;
+	margin: 0px;
+	position: relative;
+}
+
+#divider p {
+	left: 50%;
+	margin-right: -50%;
+	font-size: 40px;
+	color: #fff;
+	width: 80%;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 5px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+}
+
+#faq,
+#services {
+	border: 1px silver solid;
+	height: auto;
+	padding: 10px;
+	background-color: #9eb4cb;
+	color: white;
+	text-align: center;
+}
+
+#questions,
+#offers {
+	text-align: center;
+}
+
+.question {
+	display: inline-block;
+	width: 33%;
+}
+
+#contact-form {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#offers img {
+	width: 80%;
+}
+
+.offer {
+	display: inline-block;
+	width: 49%;
+}
+
+#question-block {
+	width: 80%;
+	margin: 0px auto;
+	margin-bottom: 50px;
+}
+
+#faq-image-block {
+	text-align: center;
+}
+
+#portrait img {
+	height: 700px;
+}
+
+#contact-block {
+	padding: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#contact-me-form {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 70px;
+}
+
+#contact-me-form input,
+#contact-me-form textarea,
+#contact-form input,
+#contact-form textarea {
+	width: 60%;
+	font-size: 20px;
+	padding: 10px;
+	border: 1px silver solid;
+}
+
+#divide-line {
+	width: 60%;
+	border-top: 2px #ddd solid;
+}
+
+#info-block {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contacts-block {
+	width: 25%;
+}
+
+#photos {
+	display: inline-block;
+	width: 600px;
+	margin-right: 150px;
+}
+
+#about-me {
+	display: inline-block;
+	width: 600px;
+	margin-bottom: 35px;
+}
+
+#portrait {
+	width: 465px;
+}
+
+#nna-member {
+	width: 150px;
+}
+
+#background_screened_nna {
+	width: 170px;
+}
+
+#about-me-block {
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#notarization-image {
+	width: 60%;
+}
+
+#notarization-image-block {
+	text-align: center;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#notarization-documents-block {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+#notarize,
+#not-noratize {
+	width: 30%;
+}
+
+#notarization-block {
+	width: 80%;
+	margin-left: 20%;
+	margin-bottom: 50px;
+}
+
+.notarization-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-bottom: 15px;
+}
+
+.notarization-block-image img {
+	width: 400px;
+	margin-right: 15px;
+}
+
+.notarization-info-text p {
+	width: 96%;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	border-top: 1px silver solid;
+	background-color: #353638;
+	color: #fff;
+}
+
+footer img {
+	width: 250px;
+}
